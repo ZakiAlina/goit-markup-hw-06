@@ -630,7 +630,7 @@ img {
   margin-right: 10px;
 }
 
-.find-us-text {
+.footer-text {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -660,6 +660,15 @@ img {
 
 .footer-icon {
   fill: currentColor;
+}
+
+.subscribe {
+  width: 570px;
+  margin-left: auto;
+}
+
+.subscribe-form {
+  width: 100%;
 }
 
 /*-------PORTFOLIO--------*/
