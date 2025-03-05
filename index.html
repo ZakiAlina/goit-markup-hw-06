@@ -78,24 +78,50 @@
               </p>
               <div class="form-field">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name" required />
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+              <div class="form-field">
                 <label for="tel">Telephone</label>
-                <input type="tel" name="tel" id="tel" required />
-                <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" required />
-                <label for="comment">Comments</label>
                 <input
-                  type="textarea"
+                  type="tel"
+                  name="tel"
+                  id="tel"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-field">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-field">
+                <label for="comment">Comments</label>
+                <textarea
                   name="comment"
                   id="comment"
                   placeholder="Enter the text"
-                />
+                  class="comment-input"></textarea>
+                </textarea>
+              </div>
+              <div class="form-field policy">
                 <label for="policy">
-                  <input type="checkbox" name="policy" id="policy" required />I
-                  agree with the letter and accept the
-                  <a href="">Terms and Conditions</a>
+                  <input
+                    type="checkbox"
+                    name="policy"
+                    id="policy"
+                    class="checkbox"
+                    required
+                  />I agree with the letter and accept the
+                  <a href="" class="policy-link">Terms and Conditions</a>
                 </label>
               </div>
+
               <button type="submit" class="button send-btn">Send</button>
             </form>
           </div>
