@@ -72,8 +72,33 @@
                 <use href="images/symbol-defs.svg#close"></use>
               </svg>
             </button>
+            <form action="" class="callback">
+              <p class="callback-title">
+                Leave your information and we'll call you back
+              </p>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+                <label for="tel">Telephone</label>
+                <input type="tel" name="tel" id="tel" required />
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required />
+                <label for="comment">Comments</label>
+                <input
+                  type="textarea"
+                  name="comment"
+                  id="comment"
+                  placeholder="Enter the text"
+                />
+                <label for="policy">
+                  <input type="checkbox" name="policy" id="policy" required />I
+                  agree with the letter and accept the
+                  <a href="">Terms and Conditions</a>
+                </label>
+              </div>
+              <button type="submit" class="button send-btn">Send</button>
+            </form>
           </div>
-          <form action=""></form>
         </div>
       </section>
       <section class="section">
